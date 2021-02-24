@@ -1,1 +1,1 @@
-# algorithm_ps
+# PS_BOJ
