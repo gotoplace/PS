@@ -1,6 +1,8 @@
 /*
 이진탐색으로 풀이
 참고 : https://jaimemin.tistory.com/966, https://blog.naver.com/pjok1122/221652210187
+
+2796KB 20ms
 */
 #include <bits/stdc++.h>
 using namespace std;
@@ -23,6 +25,7 @@ int Calc(int d) {
     if (d <= X[i] - cur) {  // mid 간격보다 X[i] - cur 간격이 크거나 같으면 설치 가능
       cnt++; cur = X[i];
     }
+    if (cnt >= C) break; // C보다 크거나 같으면 추가 탐색 불필요
   }
   return (cnt >= C);
 }
