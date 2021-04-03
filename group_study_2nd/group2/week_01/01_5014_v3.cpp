@@ -1,6 +1,8 @@
 /*
 https://www.acmicpc.net/problem/5014 : 스타트링크
 
+수식으로 풀이
+
 참고 : http://melonicedlatte.com/algorithm/2018/11/11/210348.html
 2016KB, 0ms
 */
