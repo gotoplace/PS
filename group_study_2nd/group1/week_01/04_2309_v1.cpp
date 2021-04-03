@@ -1,5 +1,5 @@
 /*
-https://www.acmicpc.net/problem/2309
+https://www.acmicpc.net/problem/2309 : 일곱 난쟁이
 
 DFS, 비트마스크 모두 가능
 비트마스크 풀이
