@@ -1,5 +1,7 @@
 /*
-https://www.acmicpc.net/problem/6549
+https://www.acmicpc.net/problem/6549 : 히스토그램에서 가장 큰 직사각형
+
+세그먼트 트리를 활용한 풀이 방법도 존재함.
 
 stack 풀이
 참고 : https://yangorithm.tistory.com/165
