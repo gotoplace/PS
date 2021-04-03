@@ -1,6 +1,8 @@
 /*
 https://www.acmicpc.net/problem/5014 : 스타트링크
 
+BFS 풀이
+
 참고 : http://melonicedlatte.com/algorithm/2018/11/11/210348.html
 6436KB, 8ms
 */
