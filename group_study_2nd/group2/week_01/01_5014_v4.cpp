@@ -1,4 +1,6 @@
 /*
+https://www.acmicpc.net/problem/5014
+
 참고 : https://2pound2pound.tistory.com/166
 1. S < G, S > G 인 상황, 시작층이 목적지 층보다 낮은 경우, 높은 경우 모두 고려해야 한다.
 2. 한 층을 갈 수 있는 방법은 아래층부터 오는 방법, 위층부터 오는 방법 모두 가능
