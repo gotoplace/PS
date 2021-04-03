@@ -26,15 +26,15 @@ void InputData() {
 }
 void CountPaper(int x, int y, int size) {
   int cur = paper[x][y], diff = 0;
-  for (int i = 0; i < size; i++) {
-    for (int j = 0; j < size; j++) {
-      if (cur != paper[x + i][y + j]) { // 전달받은 좌표에서 i, j 위치
+  for (int i = 0; i < size; i++) { // or i = x
+    for (int j = 0; j < size; j++) { // or j = y
+      if (cur != paper[x + i][y + j]) { // 전달받은 좌표에서 i, j 위치, i = x, j = y로 설정했다면 paper[i][j]로 체크할 것
         diff = 1; break;
       }
     }
     if (diff == 1) break;
   }
-  if (diff == 0) { // 모두 같은 색종이, 카운트 증가하고 리턴
+  if (diff == 0) { // 모두 같은 색종이, 카운트 증가하고 리턴, 더 분할할 필요 없음
     cnt[cur]++; return;
   }
   // diff == 1이므로, N/2로 분할 하여 체크 해야 함.
