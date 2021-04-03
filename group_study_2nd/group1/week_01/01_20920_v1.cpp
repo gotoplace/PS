@@ -1,6 +1,11 @@
 /*
-https://www.acmicpc.net/problem/20920
+https://www.acmicpc.net/problem/20920 : 영단어 암기는 괴로워
+
 STL map 사용
+map은 내부적으로 레드블랙트리구조이며, 삽입,삭제,검색시 최악의 경우에도 O(logN)을 보장한다고 함.
+map<string, int> : string을 key로하여 int값 삽입, 삭제, 검색이 가능하고
+이를 활용하여 memo[mapId - 1]에 해당되는 값을 O(1)로 접근 가능함.
+
 13860KB 148ms
 */
 #include <bits/stdc++.h>
