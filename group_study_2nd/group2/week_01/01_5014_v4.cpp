@@ -1,5 +1,7 @@
 /*
-https://www.acmicpc.net/problem/5014
+https://www.acmicpc.net/problem/5014 : 스타트링크
+
+DFS & DP 풀이
 
 참고 : https://2pound2pound.tistory.com/166
 1. S < G, S > G 인 상황, 시작층이 목적지 층보다 낮은 경우, 높은 경우 모두 고려해야 한다.
