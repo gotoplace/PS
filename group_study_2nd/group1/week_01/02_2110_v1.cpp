@@ -1,4 +1,6 @@
 /*
+https://www.acmicpc.net/problem/2110 : 공유기 설치
+
 이진탐색으로 풀이
 참고 : https://jaimemin.tistory.com/966, https://blog.naver.com/pjok1122/221652210187
 
@@ -20,7 +22,7 @@ void InputData() {
   for (int i = 0; i < N; i++) cin >> X[i];
 }
 int Calc(int d) {
-  int cnt = 1, cur = X[0]; // cnt는 무조건 1개 시작
+  int cnt = 1, cur = X[0]; // cnt는 무조건 1개로 시작
   for (int i = 1; i < N; i++) {
     if (d <= X[i] - cur) {  // mid 간격보다 X[i] - cur 간격이 크거나 같으면 설치 가능
       cnt++; cur = X[i];
