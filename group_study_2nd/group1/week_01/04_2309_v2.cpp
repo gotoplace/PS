@@ -2,6 +2,7 @@
 https://www.acmicpc.net/problem/2309
 
 DFS 풀이, 정렬 후, 순차적으로 합이 100이되면 DFS 중단, 결과 출력
+2016KB 0ms
 */
 
 #include <bits/stdc++.h>
