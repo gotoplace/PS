@@ -17,8 +17,10 @@ void InputData() {
   }
 }
 int DFS(int cnt, int s, int sum) {
-  if (cnt == 2)
+  if (cnt == 2) {
     if (sum == 100) return 1;
+    return 0;
+  }
   for (int i = s; i < 9; i++) {
     if (sel[i] == 1) continue;
     sel[i] = 1; d_sol[i] = 1;
