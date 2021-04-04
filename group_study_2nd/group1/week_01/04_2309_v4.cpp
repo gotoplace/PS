@@ -1,5 +1,5 @@
 /*
-https://www.acmicpc.net/problem/2309
+https://www.acmicpc.net/problem/2309 : 일곱 난쟁이
 
 DFS, 순차적으로 합을 구하여 7명 & 합 100을 만족하면 재귀 중단, sel[] == 1 해당되는 난쟁이만 출력
 2016KB 0ms
