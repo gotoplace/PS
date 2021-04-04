@@ -1,5 +1,5 @@
 /*
-https://www.acmicpc.net/problem/2309 : 일곱 
+https://www.acmicpc.net/problem/2309 : 일곱 난쟁이
 
 DFS, total sum에서 난쟁이 키를 빼면서 합이 100이면 중단, 결과 출력
 2016KB 0ms
