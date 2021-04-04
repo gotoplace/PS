@@ -1,7 +1,7 @@
 /*
 https://www.acmicpc.net/problem/1182 : 부분수열의 합
 
-참고 : https://mm5-gnap.tistory.com/304, https://instories.tistory.com/76?category=878872
+참고 : https://mm5-gnap.tistory.com/304, https://instories.tistory.com/76?category=878872, https://redcoder.tistory.com/58
 
 DFS대신 Bitmasking으로 풀이
 2016KB 60ms
