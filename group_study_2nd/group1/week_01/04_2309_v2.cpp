@@ -16,8 +16,10 @@ void InputData() {
   for (int i = 0; i < 9; i++) cin >> d[i];
 }
 int DFS(int cnt, int s, int sum) {
-  if (cnt == 7)
+  if (cnt == 7) {
     if (sum == 100) return 1;
+    return 0;
+  }
   for (int i = s; i < 9; i++) {
     if (sel[i] == 1) continue;
     sel[i] = 1; d_sol[cnt] = d[i];
