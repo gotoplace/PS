@@ -1,5 +1,5 @@
 /*
-https://www.acmicpc.net/problem/2309
+https://www.acmicpc.net/problem/2309 : 일곱 난쟁이
 
 DFS, 입력 받은 난쟁이 total합을 구한 후, 순차적으로 빼면서 cnt 2 && sum 100을 만족하면 재귀 중단, sel[]에 해당되지 않는 난쟁이만 출력
 */
