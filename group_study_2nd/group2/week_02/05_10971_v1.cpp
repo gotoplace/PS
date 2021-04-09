@@ -30,7 +30,7 @@ void DFS(int cnt, int start, int x, int sum) {
     if (W[x][y] == 0) continue;
     if (visited[x]) continue; // 이미 방문한 노드는 방문하지 않음
     visited[x] = 1; sum += W[x][y];
-    if (mincost >= sum) DFS(cnt + 1, start, y, sum); // 가지치기 필요
+    if (mincost > sum) DFS(cnt + 1, start, y, sum); // 가지치기 필요, mincost >= sum 조건 결과도 동일함 2016KB 8ms
     visited[x] = 0; sum -= W[x][y];
   }
 }
