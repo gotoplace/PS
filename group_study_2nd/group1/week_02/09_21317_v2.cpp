@@ -7,7 +7,7 @@ DP top-down + 메모이제이션 방식으로 풀이
 using namespace std;
 
 #define endl '\n'
-int N, K, mincost = INT_MAX;
+int N, K;
 int S[20 + 2][2 + 2];
 int dp[20 + 2][2 + 2];
 
