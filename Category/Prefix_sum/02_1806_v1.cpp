@@ -25,7 +25,7 @@ void Solve() {
       len = min(len, right - left);
       sum -= num[left++];
     }
-    else if (right == N) break;
+    else if (right == N) break; // right++ > N 조건 방지, 먼저 체크해야 함
     else sum += num[right++]; // S보다 작으면, sum에 num[right]를 더하고, right++
   }
   if (len == INT_MAX) cout << 0 << endl;
