@@ -23,7 +23,7 @@ void Solve() {
   for (int i = 0; i < M; i++) {
     int j, k;
     cin >> j >> k;
-    cout << psum[k] - psum[j - 1] << endl;
+    cout << psum[k] - psum[j - 1] << endl; // j ~ k 구간 합
   }
 }
 int main() {
