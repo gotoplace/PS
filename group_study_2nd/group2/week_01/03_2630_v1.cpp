@@ -28,7 +28,7 @@ void CountPaper(int x, int y, int size) {
   int cur = paper[x][y], diff = 0;
   for (int i = 0; i < size; i++) { // or i = x
     for (int j = 0; j < size; j++) { // or j = y
-      if (cur != paper[x + i][y + j]) { // 전달받은 좌표에서 i, j 위치, i = x, j = y로 설정했다면 paper[i][j]로 체크할 것
+      if (cur != paper[x + i][y + j]) { // 전달받은 좌표에서 i, j 위치
         diff = 1; break;
       }
     }
