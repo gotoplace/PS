@@ -23,6 +23,9 @@ void InputData() {
 }
 void CountPaper(int x, int y, int sz) {
   int cur = paper[x][y], diff = 0;
+  if (sz == 1) { // 조건 추가, 결과는 동일함
+    cnt[cur]++; return;
+  }
   for (int i = 0; i < sz; i++) {
     for (int j = 0; j < sz; j++) {
       if (cur != paper[x + i][y + j]) {
