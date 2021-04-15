@@ -2,6 +2,7 @@
 https://www.acmicpc.net/problem/18405 : 경쟁적 전염
 BFS, 원형큐로 풀이하면 실패됨.
 선형큐로 풀이해야 함.
+struct 정렬 sort() 호출할 때 comp() 넣지 않으면 operator error 발생.
 2928KB 4ms
 */
 #include <bits/stdc++.h>
