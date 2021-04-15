@@ -11,7 +11,6 @@ using namespace std;
 
 #define MAXN (200) // 200
 #define MAXQ (MAXN * MAXN) // 원형큐 사용하면 해결 불가. 선형큐 사용할 것.
-#define MOD (MAXQ - 1)
 
 int dbg = 0;
 int N, K, S, X, Y;
