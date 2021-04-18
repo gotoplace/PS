@@ -11,6 +11,8 @@ http://jungol.co.kr/bbs/board.php?bo_table=pbank&wr_id=391&sca=4070 : 등산로 
 문제 접근 방법
 시작할 때, 바깥부분에서 접근하는 조건으로 시작해야 함.
 바깥부분 0에서 올라오면 visited[][] 값은 vmap[][] * vmap[][]값이 됨
+
+단순하게 접근하여 창의적인 풀이 방법을 찾자.
 */
 #include <bits/stdc++.h>
 using namespace std;
