@@ -33,7 +33,7 @@ void InputData() {
 int BFS() {
   int found = 0;
   wp = rp = 0;
-  visited[SX][SY] = 0;
+  visited[SX][SY] = 1;
   push(SX, SY, F);
   while (!empty()) {
     POS cur = front(); pop();
