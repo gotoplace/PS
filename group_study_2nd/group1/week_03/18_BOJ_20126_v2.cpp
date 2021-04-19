@@ -2,7 +2,6 @@
 https://www.acmicpc.net/problem/20126 : 교수님의 기말고사
 2796KB 36ms
 구현 문제.
-
 참고 : https://prgmti1.tistory.com/entry/20126%EB%B2%88-%EA%B5%90%EC%88%98%EB%8B%98%EC%9D%98-%EA%B8%B0%EB%A7%90%EA%B3%A0%EC%82%AC
 1. 0번째 시험이 시작하기 전에 시험을 진행하는 경우
 2. 0~n-1번째 시험 사이에 껴서 시험을 보는 경우
