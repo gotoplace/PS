@@ -30,15 +30,16 @@ bool comp(const pii &a, const pii &b) {
 int Solve() {
   // 정렬
   sort(sched + 1, sched + N + 1, comp);
-  // 0번째 시험이 시작하기 전에 시험을 진행하는 경우
-  if (sched[1].x >= M) return 0;
-  // 0 ~ n-1번째 시험 사이에 껴서 시험을 보는 경우
+  // 1번째 시험이 시작하기 전에 시험을 진행하는 경우, 즉, 가장 처음에 시작해도 되는 경우
+  // if (sched[1].x >= M) return 0; // 이 조건은 아래 for loop에서 처리되어 필요 없음.
+  // sched[0].x + sched[0].y = 0, sched[1].x >= M 이면 가장 처음에 시작해도 되는 조건임.
+  // 1 ~ N-1번째 시험 사이에 껴서 시험을 보는 경우
   for (int i = 0; i <= N - 1; i++) {
     if (sched[i + 1].x - (sched[i].x + sched[i].y) >= M) return sched[i].x + sched[i].y;
   }
   // 마지막 시험이 끝난 이후 시험을 보는 경우
   if (sched[N].x + sched[N].y + M <= S) return sched[N].x + sched[N].y;
-  // 위 조건 모두 만족 안하는 경우
+  // 위 조건 모두 만족하지 않는 경우
   return -1;
 }
 int main() {
