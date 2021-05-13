@@ -1,6 +1,7 @@
 /*
 https://www.acmicpc.net/problem/11441 : 합 구하기
 2796KB 40ms
+미리 구간합을 구해놓고, 특정 구간의 합을 찾는 문제
 */
 #include <bits/stdc++.h>
 using namespace std;
