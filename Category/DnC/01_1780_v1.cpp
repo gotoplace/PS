@@ -1,6 +1,7 @@
 /*
 https://www.acmicpc.net/problem/1780 : 종이의 개수
 분할 정복, 재귀로 풀이, 2630 유사 문제, 거의 동일한 방법으로 해결
+
 20872KB 356ms
 */
 #include <bits/stdc++.h>
