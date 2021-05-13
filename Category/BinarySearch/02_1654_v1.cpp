@@ -2,6 +2,7 @@
 https://www.acmicpc.net/problem/1654 : 랜선 자르기
 이진 탐색, 파라메트릭 서치로 풀이
 2805와 동일한 방법으로 접근, int overflow 주의
+
 2056KB 4ms
 */
 #include <bits/stdc++.h>
