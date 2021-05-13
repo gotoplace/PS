@@ -2,6 +2,7 @@
 https://www.acmicpc.net/problem/2805 : 나무 자르기
 이진 탐색 활용, 파라메트릭 서치
 NOTE : 정렬, 이진 탐색으로 높이 최댓값 (mid)를 찾는다.
+
 5924KB 164ms
 */
 #include <bits/stdc++.h>
