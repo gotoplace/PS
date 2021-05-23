@@ -58,4 +58,5 @@ int main() {
   int ans = BFS();
   if (ans == -1) cout << "use the stairs" << endl;
   else cout << ans << endl;
+  return 0;
 }
