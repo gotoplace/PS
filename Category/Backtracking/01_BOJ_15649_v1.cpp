@@ -2,9 +2,18 @@
 https://www.acmicpc.net/problem/15649 : N과 M (1)
 2020KB 24ms
 
-1 ~ N중에서 M개를 선택하는 조합의 경우의 수를 찾는 문제
+1부터 N까지 자연수 중에서 중복 없이 M개를 고른 수열
+=> 순열에 해당됨. nPr = n! / (n - r)!
+
 DFS로 접근, used 배열을 사용하여 조합을 뽑아낸다. 이 때, sol[cnt] = i가 출력할 대상이 된다.
 cnt가 M개가 되면 sol 배열을 M개 만큼 출력하고 return한다.
+
+순열, 중복순열, 조합, 중복조합 개념
+https://m.blog.naver.com/alwaysneoi/100155625557
+
+순열, 중복순열, 조합, 중복조합 공식
+https://bb-dochi.tistory.com/47
+https://m.blog.naver.com/honeyeah/220295949101
 */
 
 #include <bits/stdc++.h>
