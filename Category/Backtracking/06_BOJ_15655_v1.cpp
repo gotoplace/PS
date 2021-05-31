@@ -46,7 +46,7 @@ void DFS(int s, int cnt) {
 }
 int main() {
   InputData();
-  sort(arr, arr + N); // 입력된 N개 자연수는 정렬되지 않았음
+  sort(arr, arr + N); // idx 0입력된 N개 자연수는 정렬되지 않았음
   DFS(0, 0); // idx 0부터 시작
   return 0;
 }
