@@ -17,6 +17,9 @@ https://woovictory.github.io/2019/05/28/Two-Pointer-Algorithm/
 # 이승우님 깃허브
 https://github.com/WooVictory/Ready-For-Tech-Interview
 
+# 확통 개념 (팩토리얼 / 순열 / 조합 / 여러 가지 순열 / 원순열 / 중복순열 /중복조합 / 분할 / 이항정리 / 조건부확률 / 독립종속배반)
+https://blog.naver.com/algosn/221413837039
+
 # 유클리드 호제법
 https://myjamong.tistory.com/138
 
