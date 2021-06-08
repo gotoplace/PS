@@ -12,7 +12,7 @@ using namespace std;
 #define endl '\n'
 #define MAXN (8)
 int N, M;
-int used[MAXN + 2], sol[MAXN + 2];
+int sol[MAXN + 2]; // used 배열 불필요
 
 void InputData() {
   ios::sync_with_stdio(0); cin.tie(0);
@@ -27,10 +27,8 @@ void DFS(int s, int cnt) {
     printNum(); return;
   }
   for (int i = s; i <= N; i++) { // 재귀로 전달 받은 값으로 시작, 중복 제거 방법
-    if (used[i]) continue;
-    used[i] = 1; sol[cnt] = i;
+    sol[cnt] = i;
     DFS(i + 1, cnt + 1);
-    used[i] = 0;
   }
 }
 int main() {
