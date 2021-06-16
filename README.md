@@ -26,7 +26,7 @@ https://blog.naver.com/algosn/221413837039
 
 
 # 유클리드 호제법
-https://chanhuiseok.github.io/posts/algo-41/
+https://chanhuiseok.github.io/posts/algo-41/, 
 https://myjamong.tistory.com/138
 
 
